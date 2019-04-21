@@ -30,6 +30,13 @@
   .services-item h3 {
     font-size: 22px !important;
   }
+
+}
+
+@media screen and (max-width: 620px){
+  #home h1 {
+    font-size: 35px !important;
+  }
   #menu-icon{
     display: inline-block !important;
     color: white;
@@ -44,15 +51,11 @@
   }
   #main-menu{
     width: 100%;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
   }
   #main-menu ul li {
     display: block;
-  }
-}
-
-@media screen and (max-width: 620px){
-  #home h1 {
-    font-size: 35px !important;
   }
 }
 
@@ -227,7 +230,9 @@ color: white;
   margin-right: auto;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"], 
+input[type="email"], 
+textarea {
   color:white;
   background-color: #273a71;
   border: none;
@@ -237,11 +242,14 @@ input[type="text"], input[type="email"], textarea {
   border-radius: 5px;
 }
 
-input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder{
+input[type="text"]::placeholder, 
+input[type="email"]::placeholder, 
+textarea::placeholder{
   color:white;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"], 
+input[type="email"] {
   width: 50%;
   height: 56px;
 }
@@ -249,7 +257,7 @@ input[type="text"], input[type="email"] {
 textarea{
   height: 200px;
   width: 100%;
-  padding-top: 24px;
+  padding-top: 20px;
 }
 
 .form-row {
@@ -265,9 +273,6 @@ input[type="submit"] {
   font-size: 18px;
   text-transform: uppercase;
   margin: 60px auto 115px auto;
-  /* margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 115px; */
 }
 
 /* FOOTER */
@@ -303,4 +308,3 @@ footer{
   color: #30bae7;
   font-size: 24px;
 }
-
