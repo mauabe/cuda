@@ -1,0 +1,23 @@
+Font: Titillium Web
+
+Font-sizes / Weights:
+	⁃	Top nav menu: 16px Regular
+	⁃	Top-level heading text: 42px Bold
+	⁃	Big buttons: 18px Regular
+	⁃	Section headings: 40px Bold
+	⁃	Section descriptions: 18px Regular
+	⁃	Blurb headings: 24px Bold
+	⁃	Blurb Paragraphs: 16px Light
+	⁃	Form placeholders: 18px Regular
+	⁃	Footer links: 24px Regular
+
+Colors:
+	⁃ [x]	Section 1 background: #87509c
+	⁃	Section 1 active link background: #643a79
+	⁃	Section 1 button background: #eb7d4b
+	⁃	Section 2 background: #17c2a4
+	⁃	Heading underline: Black with 15% opacity
+	⁃	Section 3 background: #3c5499
+	⁃	Section 3 button background: #30bae7
+	⁃	Footer background: #344b8e
+	⁃	Footer active link: #30bae7
