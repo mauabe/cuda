@@ -12,7 +12,7 @@ Font-sizes / Weights:
 	⁃	Footer links: 24px Regular
 
 Colors:
-	⁃	Section 1 background: #87509c
+	⁃ [x]	Section 1 background: #87509c
 	⁃	Section 1 active link background: #643a79
 	⁃	Section 1 button background: #eb7d4b
 	⁃	Section 2 background: #17c2a4

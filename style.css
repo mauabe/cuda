@@ -1,4 +1,198 @@
-h1, h1, h3, p {
+h1, h1, h3, p, body {
 font-family: 'Titillium Web', sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web", san-serif;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.container{
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-btn{
+  padding: 25px 90px 25px 90px;
+  border-radius: 5px;
+  margin-bottom: 145px;
+}
+
+.line{
+  width: 90px;
+  height: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+/* SECTION HOME */
+
+#home {
+  background-color: #87509c;
+  min-height: 595px;
+}
+
+header{
+  padding-top: 55px;
+}
+
+nav{
+  float: right;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+nav ul li .active{
+  background-color: #643a79;
+  padding: 9px 17px 9px 17px;
+  border-radius: 5px;
+}
+nav ul li a {
+text-decoration: none;
+color: white;
+}
+
+.main-header{
+  margin-top:160px;
+  text-align: center;
+}
+
+.main-header h1 {
+  color: white;
+  font-size: 42px;
+  font-style: bold;
+  margin-bottom: 60px;
+}
+
+.main-header a{
+  text-decoration: none;
+  color: white;
+  background-color: #eb7d4b;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* SECTION SERVICES */
+
+
+#services {
+  background-color: #17c2a4;
+  min-height: 745px;
+  color: white;
+}
+
+.title-box{
+  text-align: center;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  padding-top: 120px;
+  color: white;
+}
+
+.title-box p{
+  font-size: 18px;
+}
+
+.services-row{
+  text-align: center;
+}
+
+.services-item{
+  display: inline-table;
+  width: 23.33%;
+  margin-bottom: 100px;
+}
+
+.services-item h3{
+  color: white;
+  font-size: 24;
+  text-transform: uppercase;
+  margin-top: 60px;
+}
+
+.services-item p{
+  font-size: 16px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CONTACT FORM SECTION */
+#contact {
+  background-color: #3c5499;
+  min-height: 820px;
+  color: white;
+}
+
+#contact-form{
+  max-width: 870px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"], input[type="email"], textarea{
+  color:white;
+  background-color: #273a71;
+  border: none;
+  font-size: 18px;
+  margin: 16px;
+  padding-left: 16px;
+  border-radius: 5px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder{
+  color:white;
+}
+
+input[type="text"], input[type="email"] {
+  width: 50%;
+  height: 56px;
+}
+
+textarea{
+  height: 200px;
+  width: 100%;
+  padding-top: 24px;
+}
+
+.form-row {
+  display: flex;
+}
+
+input[type="submit"] {
+  text-align: center;
+  background-color: #30bae6;
+  border: none;
+  color: white;
+  font-size: 18px;
+  text-transform: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+nav ul li{
+  display: inline-block;
+  padding: 20px;
+  text-transform: uppercase;
+}
