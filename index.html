@@ -7,25 +7,32 @@
 
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700,900" rel="stylesheet">
-  
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+
+
   <title>Cuda - Web & Mobile Development and Design</title>
 </head>
 
 <body>
   
-  <section id="home" class="">
+  <section id="home">
    <div class="container">
     <header>
-      <img href="#" src="assets/logo.png" alt="" class="">
-      <nav>
+      <img href="#home" src="assets/logo.png" alt="" class="">
+
+      <nav id="main-menu">
         <ul class="nav-access">
-          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Work</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+
+      <a href="#" id="menu-icon" onclick="toggleMenu();" style="display: none"><i class="fas fa-bars"></i></a>
+
     </header> 
     <div class="main-header">
       <h1>Hi there! We are the new kids on the block 
@@ -80,7 +87,7 @@
       <div class="title-box">
         <h2>Get In Touch</h2> 
         <div class="line"></div>
-        <p>1600 Pennsylvania Ave NW, Washington DC 20500. Tel: (202) 456-1111</p>
+        <p>1600 Pennsylvania Ave NW, Washington DC 20500. USA Tel: (202) 456-1111</p>
       </div>
 
       <div id="contact-form">
@@ -98,16 +105,16 @@
           </div>
         </form>
       </div>
-      
+
     </div>  
  </section>
 
- <footer id="footer" class="">
+ <footer id="footer">
     <div class="container">
       <div class="footer-links">
         <ul>
           <li><a href="#">Facebook</a></li>
-          <li class="active">Twitter</a></li>
+          <li class="active"><a >Twitter</a></li>
           <li><a href="#">LinkedIn</a></li>
           <li><a href="#">Behance</a></li>
           <li><a href="#">Dribble</a></li>
@@ -117,7 +124,16 @@
       </div>
     </div>
   </footer>
- 
+  <script >
+    function toggleMenu(){
+      let x = document.getElementById("main-menu");
+      if(x.style.display === "block"){
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 
 </body>
 </html>
